@@ -1,4 +1,4 @@
-package Decision;
+package t2decision;
 
 public class _10star {
     public static void main(String[] args) {

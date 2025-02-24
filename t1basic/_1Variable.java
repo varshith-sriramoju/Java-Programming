@@ -1,4 +1,4 @@
-
+package t1basic;
 //x=23 x called destination and 25 source
 /*max choose double over float */
 public class _1Variable {

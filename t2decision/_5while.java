@@ -1,4 +1,4 @@
-package Decision;
+package t2decision;
 public class _5while {
     public static void main(String[] args) {
          int i=1;

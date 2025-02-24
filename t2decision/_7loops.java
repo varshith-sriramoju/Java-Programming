@@ -1,4 +1,4 @@
-package Decision;
+package t2decision;
 
 public class _7loops {
     public static void main(String[] args) {

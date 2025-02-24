@@ -3,7 +3,7 @@
  vice versa
  -->float cant be used
 */
-package Decision;
+package t2decision;
 public class _3Switch {
     public static void main(String[] args) {
      /*    char x = 'S';

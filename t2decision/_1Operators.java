@@ -1,4 +1,4 @@
-package Decision;
+package t2decision;
 
 /* 
  Operators are entity perform operations
@@ -20,6 +20,17 @@ public class _1Operators {
         System.out.println(a); // now a = 12
         System.out.println(a--); 
         System.out.println(--a); 
+        int mod = 13%2;
+        System.out.println(mod);
 
+        //decsion with operators
+        int BoyAge = 21;
+        int GirlAge= 18;
+        if(BoyAge>=21 && GirlAge>=18){
+            System.out.println("you can mary");
+        }
+        else{
+            System.out.println("NO you cant marry");
+        }
     }
 }

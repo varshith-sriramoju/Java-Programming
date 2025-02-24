@@ -1,5 +1,5 @@
 /*default else wil be executed */
-package Decision;
+package t2decision;
 
 public class _2Decision {
     public static void main(String[] args) {

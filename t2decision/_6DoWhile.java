@@ -1,4 +1,4 @@
-package Decision;
+package t2decision;
 //this is executed atleast once even if false
 public class _6DoWhile {
     public static void main(String[] args) {
