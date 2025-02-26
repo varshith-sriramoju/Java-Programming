@@ -1,19 +1,20 @@
+package t4oops.inheritance;
 public class _4Vechile {
     public int wheels;
     public int seats;
     public int fuelTank;
     public String engine;
-    public int lights;
+    public String lights;
 
     public _4Vechile(){
         this.engine="petrol";
-        this.wheels="4";
-        this.seats="4";
-        this.fuelTank="35";
+        this.wheels=4;
+        this.seats=4;
+        this.fuelTank=35;
         this.lights="LED";
     }
 
-    public _4Vechile(int wheels, int seats, int fuelTank, String engine, int lights) {
+    public _4Vechile(int wheels, int seats, int fuelTank, String engine, String lights) {
         this.wheels = wheels;
         this.seats = seats;
         this.fuelTank = fuelTank;
@@ -54,11 +55,11 @@ public class _4Vechile {
         this.engine = engine;
     }
 
-    public int getLights() {
+    public String getLights() {
         return lights;
     }
 
-    public void setLights(int lights) {
+    public void setLights(String lights) {
         this.lights = lights;
     } 
     

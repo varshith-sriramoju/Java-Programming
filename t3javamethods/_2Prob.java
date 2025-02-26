@@ -1,3 +1,4 @@
+package t3javamethods;
 public class _2Prob {
     public static void main(String[] args) {
     AreRec(2,2);

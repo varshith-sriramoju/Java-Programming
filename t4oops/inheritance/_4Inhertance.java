@@ -1,3 +1,4 @@
+package t4oops.inheritance;
 /*no inheritance of private */
 public class _4Inhertance {
     public static void main(String[] args){

@@ -1,3 +1,4 @@
+package t3javamethods;
 //using same method multiple times with differ parameters
 public class _3MethodOver {
     public static void main(String[] args) {
