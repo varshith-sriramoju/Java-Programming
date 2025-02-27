@@ -6,6 +6,8 @@ public class _4Vechile {
     public String engine;
     public String lights;
 
+    //constructor overloading
+    //default constructor
     public _4Vechile(){
         this.engine="petrol";
         this.wheels=4;
@@ -13,7 +15,7 @@ public class _4Vechile {
         this.fuelTank=35;
         this.lights="LED";
     }
-
+    //parameterized constructor(custome constructor)
     public _4Vechile(int wheels, int seats, int fuelTank, String engine, String lights) {
         this.wheels = wheels;
         this.seats = seats;
@@ -62,5 +64,15 @@ public class _4Vechile {
     public void setLights(String lights) {
         this.lights = lights;
     } 
+
+    public String toString(){
+        return "Vechile{"+
+        "wheels="+wheels+
+        ", seats="+seats+
+        ", fuelTank="+fuelTank+
+        ", engine="+engine+
+        ",lights="+lights+
+        "}";
+}
     
 }

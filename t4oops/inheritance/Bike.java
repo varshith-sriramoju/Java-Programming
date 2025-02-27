@@ -10,12 +10,22 @@ public class Bike extends _4Vechile{
      * super() can be used only in constructors.
      * super() is used to call the constructor of the parent class.
      */
-     public Bike(){
+
+     //constructor overloading
+    public Bike() {
         super();
-        this.handle="short";
-     }
+        this.handle = "short";
+    }
+    public Bike(int wheels, int seats, int fuelTank, String engine, String lights,String handle) {
+        super(wheels, seats, fuelTank, engine, lights);
+        this.handle = "short";
+    }
     public Bike(String handle) {
-        super();
+        super(2, 1, 1, "petrol", "LED"); // Default values for wheels, seats, fuelTank, engine, lights
+        this.handle = handle;
+    }
+
+    public void setHandle(String handle){
         this.handle = handle;
     }
     public String getHandle() {
