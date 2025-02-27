@@ -1,5 +1,5 @@
 package t4oops.inheritance;
-public class car extends _4Vechile{
+public class car extends Vechile{
     public String fridge;
     public String enter;
 

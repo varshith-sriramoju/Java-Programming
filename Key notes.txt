@@ -182,3 +182,9 @@ List<String> names = Arrays.asList("John", "Doe", "Jane");
 names.stream().filter(n -> n.startsWith("J")).forEach(System.out::println);
 
 Functional Interfaces: Predicate, Function, Consumer, Supplier.
+__________________________________________________________________________________________________________________________________________
+11. import and package
+In Java, package and import serve distinct roles in organizing and utilizing code.
+The import statements are placed after the package declaration and before the class definition. 
+In essence, package organizes your own code, while import allows you to use code from other packages,
+ whether they are part of the Java standard library or external libraries.

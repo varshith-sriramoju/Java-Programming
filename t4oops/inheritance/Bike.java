@@ -1,5 +1,5 @@
 package t4oops.inheritance;
-public class Bike extends _4Vechile{
+public class Bike extends Vechile{
     public String handle;
 
     /*
@@ -30,6 +30,14 @@ public class Bike extends _4Vechile{
     }
     public String getHandle() {
         return handle;
+    }
+
+    /*
+     * override used to override the method of the parent class. 
+     */
+    @Override
+    public String run(){
+        return "Bike is running";
     }
 
      

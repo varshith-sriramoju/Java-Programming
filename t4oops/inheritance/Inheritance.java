@@ -1,6 +1,6 @@
 package t4oops.inheritance;
 /*no inheritance of private */
-public class _4Inhertance {
+public class Inheritance {
     public static void main(String[] args){
     car c1=new car();
     car c2=new car(4,4,4,"petrol","LED","yes","yes");
@@ -15,5 +15,13 @@ public class _4Inhertance {
     System.out.println(b1.getEngine());
     System.out.println(b2.getEngine());
     System.out.println(b2.getHandle());
+      
+    //toString()
+    System.out.println(b1);
+    System.out.println(b2);
+
+    //@override
+    System.out.println(b2.run());
+
     }
 }

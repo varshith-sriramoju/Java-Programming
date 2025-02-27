@@ -1,5 +1,5 @@
 package t4oops.inheritance;
-public class _4Vechile {
+public class Vechile {
     public int wheels;
     public int seats;
     public int fuelTank;
@@ -8,7 +8,7 @@ public class _4Vechile {
 
     //constructor overloading
     //default constructor
-    public _4Vechile(){
+    public Vechile(){
         this.engine="petrol";
         this.wheels=4;
         this.seats=4;
@@ -16,7 +16,7 @@ public class _4Vechile {
         this.lights="LED";
     }
     //parameterized constructor(custome constructor)
-    public _4Vechile(int wheels, int seats, int fuelTank, String engine, String lights) {
+    public Vechile(int wheels, int seats, int fuelTank, String engine, String lights) {
         this.wheels = wheels;
         this.seats = seats;
         this.fuelTank = fuelTank;
@@ -73,6 +73,9 @@ public class _4Vechile {
         ", engine="+engine+
         ",lights="+lights+
         "}";
+}
+public String run(){
+    return "vechile is running";
 }
     
 }
