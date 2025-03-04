@@ -9,6 +9,7 @@ Cannot start with a digit (e.g., 1ClassName ❌).
 ✅ Examples:
 ✔ StudentRecord
 ✔ BankAccountDetails
+✔ P1
 ❌ 123Class (Invalid: Starts with a number)
 __________________________________________________________________________________________________________________________________________
 
