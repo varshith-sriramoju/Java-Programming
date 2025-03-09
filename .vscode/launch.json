@@ -1,0 +1,233 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Strings",
+            "request": "launch",
+            "mainClass": "t6strings.Strings",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "request": "launch",
+            "name": "Launch Program",
+            "mainClass": "Main",
+            "args": [
+                "Hello"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Problem",
+            "request": "launch",
+            "mainClass": "t1basic.Problem",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "_1Variable",
+            "request": "launch",
+            "mainClass": "t1basic._1Variable",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "_2Tpecasting",
+            "request": "launch",
+            "mainClass": "t1basic._2Tpecasting",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "_10star",
+            "request": "launch",
+            "mainClass": "t2decision._10star",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "_11Tables",
+            "request": "launch",
+            "mainClass": "t2decision._11Tables",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "_1Operators",
+            "request": "launch",
+            "mainClass": "t2decision._1Operators",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "_2Decision",
+            "request": "launch",
+            "mainClass": "t2decision._2Decision",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "_3Switch",
+            "request": "launch",
+            "mainClass": "t2decision._3Switch",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "_4Loops",
+            "request": "launch",
+            "mainClass": "t2decision._4Loops",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "_5while",
+            "request": "launch",
+            "mainClass": "t2decision._5while",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "_6DoWhile",
+            "request": "launch",
+            "mainClass": "t2decision._6DoWhile",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "_7loops",
+            "request": "launch",
+            "mainClass": "t2decision._7loops",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "_9Nested",
+            "request": "launch",
+            "mainClass": "t2decision._9Nested",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "_1Basic",
+            "request": "launch",
+            "mainClass": "t3javamethods._1Basic",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "_2Prob",
+            "request": "launch",
+            "mainClass": "t3javamethods._2Prob",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "_3MethodOver",
+            "request": "launch",
+            "mainClass": "t3javamethods._3MethodOver",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "_4PrimeNumber",
+            "request": "launch",
+            "mainClass": "t3javamethods._4PrimeNumber",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "t4oops.Abstraction.Main",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "t4oops.Encapsulation.Main",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "_1hello",
+            "request": "launch",
+            "mainClass": "t4oops._1hello",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "_2Hello",
+            "request": "launch",
+            "mainClass": "t4oops._2Hello",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "t4oops.composition.Main",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "Inheritance",
+            "request": "launch",
+            "mainClass": "t4oops.inheritance.Inheritance",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "inheritance",
+            "request": "launch",
+            "mainClass": "t4oops.inheritance.test.inheritance",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "Main(3)",
+            "request": "launch",
+            "mainClass": "t4oops.interfaces.Main",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "Main(4)",
+            "request": "launch",
+            "mainClass": "t4oops.polymorphisam.Main",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "Main(5)",
+            "request": "launch",
+            "mainClass": "t5corejava.AnoymnousClass.Main",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "Main(6)",
+            "request": "launch",
+            "mainClass": "t5corejava.InnerClass.Main",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "Main(7)",
+            "request": "launch",
+            "mainClass": "t5corejava.localInnerCLass.Main",
+            "projectName": "Java_Programming_a7b36f45"
+        }
+    ]
+}

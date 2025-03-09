@@ -43,6 +43,8 @@ ________________________________________________________________________________
 4. Object-Oriented Programming (OOP) Principles
 Encapsulation
 Wrapping data (variables) and code (methods) together in a single unit (class).
+while restricting direct access to the data. It ensures that the
+data is accessed and modified only through controlled mechanisms (getters and setters).
 Example:
 
 class Employee {
@@ -185,6 +187,6 @@ Functional Interfaces: Predicate, Function, Consumer, Supplier.
 __________________________________________________________________________________________________________________________________________
 11. import and package
 In Java, package and import serve distinct roles in organizing and utilizing code.
-The import statements are placed after the package declaration and before the class definition. 
+The import statements are placed after the package declaration and before the class definition.
 In essence, package organizes your own code, while import allows you to use code from other packages,
  whether they are part of the Java standard library or external libraries.
