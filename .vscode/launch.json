@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "FirstBasic",
+            "request": "launch",
+            "mainClass": "finalNotesCode.FirstBasic",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "FirstBasic",
+            "request": "launch",
+            "mainClass": "FinalNotesCode.FirstBasic",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
+            "name": "FirstBasic",
+            "request": "launch",
+            "mainClass": "FirstBasic",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
             "name": "Strings",
             "request": "launch",
             "mainClass": "t6strings.Strings",
