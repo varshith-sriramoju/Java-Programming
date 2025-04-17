@@ -1,0 +1,192 @@
+1. Basics of Java
+Java is an object-oriented, platform-independent, and multi-threaded programming language.
+Key Features of Java:
+Platform Independence: Java code is compiled into bytecode, which can run on any system with a Java Virtual Machine (JVM).
+Object-Oriented: Java follows OOP principles like Encapsulation, Inheritance, Polymorphism, and Abstraction.
+Automatic Memory Management: Java has Garbage Collection to remove unused objects.
+Multithreading Support: Java allows concurrent execution of multiple tasks (threads).
+JVM, JRE, JDK:
+JVM (Java Virtual Machine): Converts Java bytecode into machine code.
+JRE (Java Runtime Environment): Includes the JVM and libraries needed to run Java applications.
+JDK (Java Development Kit): Contains JRE and development tools like the compiler (javac).
+__________________________________________________________________________________________________________________________________________
+
+2. Data Types and Variables
+Java has two types of data types:
+Primitive Data Types (Stored in Stack Memory)
+Integer Types: byte (1 byte), short (2 bytes), int (4 bytes), long (8 bytes)
+Floating-Point Types: float (4 bytes), double (8 bytes)
+Character Type: char (2 bytes, supports Unicode)
+Boolean Type: boolean (true or false)
+Non-Primitive Data Types (Stored in Heap Memory)
+String, Arrays, Classes, Interfaces, etc.
+Type Casting
+Implicit Casting: Smaller to larger data type (done automatically).
+
+int num = 10;
+double d = num;  // Implicit casting from int to double
+
+Explicit Casting: Larger to smaller data type (manual conversion).
+
+double d = 10.5;
+int num = (int) d;  // Explicit casting from double to int
+__________________________________________________________________________________________________________________________________________
+
+3. Control Flow Statements
+Conditional Statements: if, if-else, switch.
+Looping Statements: for, while, do-while.
+Break & Continue:
+break; exits the loop.
+continue; skips the current iteration and moves to the next.
+__________________________________________________________________________________________________________________________________________
+
+4. Object-Oriented Programming (OOP) Principles
+Encapsulation
+Wrapping data (variables) and code (methods) together in a single unit (class).
+while restricting direct access to the data. It ensures that the
+data is accessed and modified only through controlled mechanisms (getters and setters).
+Example:
+
+class Employee {
+    private int salary; // Private variable
+
+    public void setSalary(int s) { // Setter method
+        salary = s;
+    }
+
+    public int getSalary() { // Getter method
+        return salary;
+    }
+}
+
+Inheritance
+Acquiring properties of a parent class using extends.
+Example:
+
+class Animal {
+    void eat() {
+        System.out.println("This animal eats food");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("Dog barks");
+    }
+}
+
+Polymorphism
+Method Overloading: Multiple methods with the same name but different parameters.
+
+class MathOperations {
+    int add(int a, int b) {
+        return a + b;
+    }
+    double add(double a, double b) {
+        return a + b;
+    }
+}
+
+Method Overriding: Redefining a method from a parent class in a subclass.
+
+class Parent {
+    void show() {
+        System.out.println("Parent class");
+    }
+}
+
+class Child extends Parent {
+    void show() {  // Overriding method
+        System.out.println("Child class");
+    }
+}
+
+Abstraction
+Hiding implementation details using abstract classes and interfaces.
+Example using Abstract Class:
+
+abstract class Vehicle {
+    abstract void start();
+}
+
+class Car extends Vehicle {
+    void start() {
+        System.out.println("Car starts with key ignition");
+    }
+}
+__________________________________________________________________________________________________________________________________________
+
+5. Important Java Keywords
+this → Refers to the current object.
+super → Refers to the parent class.
+static → Belongs to the class rather than instances.
+final → Prevents modification (for variables, methods, and classes).
+abstract → Used for abstraction.
+synchronized → Used in multi-threading to avoid conflicts.
+__________________________________________________________________________________________________________________________________________
+
+6. Exception Handling
+Used to handle runtime errors using try, catch, finally, throw, throws.
+Checked Exceptions: Must be handled using try-catch (e.g., IOException).
+Unchecked Exceptions: Runtime exceptions (e.g., NullPointerException).
+
+try {
+    int a = 5 / 0;
+} catch (ArithmeticException e) {
+    System.out.println("Cannot divide by zero!");
+} finally {
+    System.out.println("This always executes.");
+}
+__________________________________________________________________________________________________________________________________________
+
+7. Java Collections Framework (JCF)
+List (Ordered, allows duplicates) → ArrayList, LinkedList, Vector.
+Set (Unique elements) → HashSet, LinkedHashSet, TreeSet.
+Map (Key-Value pairs) → HashMap, TreeMap, HashTable.
+Queue (FIFO structure) → PriorityQueue, Deque.
+__________________________________________________________________________________________________________________________________________
+
+8. Multi-threading
+Two ways to create threads:
+Extending Thread class
+
+class MyThread extends Thread {
+    public void run() {
+        System.out.println("Thread is running...");
+    }
+}
+
+Implementing Runnable interface
+
+class MyRunnable implements Runnable {
+    public void run() {
+        System.out.println("Thread running via Runnable");
+    }
+}
+__________________________________________________________________________________________________________________________________________
+
+9. File Handling in Java
+Using java.io package
+
+FileWriter fw = new FileWriter("file.txt");
+fw.write("Hello, Java!");
+fw.close();
+__________________________________________________________________________________________________________________________________________
+
+10. Java 8+ Features
+Lambda Expressions:
+
+(a, b) -> a + b;
+
+Stream API:
+
+List<String> names = Arrays.asList("John", "Doe", "Jane");
+names.stream().filter(n -> n.startsWith("J")).forEach(System.out::println);
+
+Functional Interfaces: Predicate, Function, Consumer, Supplier.
+__________________________________________________________________________________________________________________________________________
+11. import and package
+In Java, package and import serve distinct roles in organizing and utilizing code.
+The import statements are placed after the package declaration and before the class definition.
+In essence, package organizes your own code, while import allows you to use code from other packages,
+ whether they are part of the Java standard library or external libraries.

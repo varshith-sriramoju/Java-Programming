@@ -1,0 +1,108 @@
+1. Class Naming Rules
+✅ Rules:
+
+Class names should start with an uppercase letter.
+Use camel case for multiple words (e.g., StudentDetails).
+Cannot use Java keywords (e.g., class, public).
+Special characters (@, %, &, etc.) are not allowed, except _ (underscore) and $ (dollar sign).
+Cannot start with a digit (e.g., 1ClassName ❌).
+✅ Examples:
+✔ StudentRecord
+✔ BankAccountDetails
+✔ P1
+❌ 123Class (Invalid: Starts with a number)
+__________________________________________________________________________________________________________________________________________
+
+2. Method Naming Rules
+✅ Rules:
+
+Method names should start with a lowercase letter.
+Follow camel case for multiple words (e.g., getStudentName).
+Cannot use Java keywords (e.g., void, return).
+Cannot start with a digit (e.g., 1calculateSum ❌).
+Special characters are not allowed except _ and $.
+✅ Examples:
+✔ calculateTotalMarks()
+✔ findMaxValue()
+❌ 123method() (Invalid: Starts with a number)
+__________________________________________________________________________________________________________________________________________
+
+3. Variable Naming Rules
+✅ Rules:
+
+Variable names should start with a lowercase letter.
+Use camel case for multiple words (e.g., studentAge).
+Cannot use Java keywords (e.g., int, new).
+Cannot start with a digit (e.g., 1total ❌).
+Only _ and $ are allowed as special characters.
+✅ Examples:
+✔ studentName
+✔ totalMarks
+❌ int (Invalid: Java keyword)
+__________________________________________________________________________________________________________________________________________
+
+4. Package Naming Rules
+✅ Rules:
+
+Package names should be all lowercase.
+Use reverse domain name convention (e.g., com.company.project).
+No special characters except _ (underscore).
+Cannot start with a digit.
+✅ Examples:
+✔ com.example.app
+✔ t1basic
+❌ MyPackage (Invalid: Should be lowercase)
+__________________________________________________________________________________________________________________________________________
+
+5. Constant Naming Rules
+✅ Rules:
+
+Constants should be in UPPERCASE with words separated by _ (e.g., MAX_SPEED).
+Use static final for constant declarations.
+Cannot use Java keywords.
+✅ Examples:
+✔ static final int MAX_SPEED = 120;
+❌ static final int maxSpeed = 120; (Invalid: Should be uppercase)
+__________________________________________________________________________________________________________________________________________
+
+6. Interface Naming Rules
+✅ Rules:
+
+Should start with an uppercase letter.
+Use camel case.
+Often named like adjectives (e.g., Runnable, Serializable).
+✅ Examples:
+✔ Runnable
+✔ Comparable
+__________________________________________________________________________________________________________________________________________
+
+7. Enum Naming Rules
+✅ Rules:
+
+Enum names should be camel case (e.g., ColorType).
+Enum constants should be in UPPERCASE.
+✅ Examples:
+✔ enum Status { ACTIVE, INACTIVE, PENDING };
+__________________________________________________________________________________________________________________________________________
+
+8. Annotation Naming Rules
+✅ Rules:
+
+Start with uppercase letter.
+Use camel case with "able" or "able" suffix (e.g., @Override).
+✅ Examples:
+✔ @Override
+✔ @Deprecated
+__________________________________________________________________________________________________________________________________________
+
+9. Generic Type Parameter Naming Rules
+✅ Rules:
+
+Use single uppercase letters.
+Common conventions:
+T → Type
+E → Element
+K → Key
+V → Value
+✅ Examples:
+✔ class Box<T> { T value; }

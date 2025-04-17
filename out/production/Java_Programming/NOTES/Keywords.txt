@@ -1,0 +1,51 @@
+Access Modifiers
+public: Accessible from any class.
+private: Accessible only within the declaring class.
+protected: Accessible within the declaring class, subclasses, and classes in the same package.
+__________________________________________________________________________________________________________________________________________
+
+Class, Object, and Inheritance
+class: Declares a class.
+new: Creates an object (instance) of a class.
+extends: Indicates inheritance from another class.
+implements: Indicates implementation of an interface.
+interface: Declares an interface.
+abstract: Declares an abstract class or method.
+super: Refers to the superclass.
+this: Refers to the current object.
+__________________________________________________________________________________________________________________________________________
+
+Control Flow
+if, else: Conditional statements.
+for: Looping construct.
+while: Looping construct.
+do-while: Looping construct that executes at least once.
+switch, case, default: Selection statements.
+break: Exits a loop or switch statement.
+continue: Skips the current iteration of a loop.
+return: Exits a method and optionally returns a value.
+__________________________________________________________________________________________________________________________________________
+
+Data Types
+int, float, double, char, boolean: Primitive data types.
+void: Indicates that a method does not return a value.
+Exception Handling
+try, catch: Handles exceptions.
+finally: Block of code that executes regardless of whether an exception is thrown.
+throw: Throws an exception.
+Modifiers
+static: Creates class-level variables and methods.
+final: Declares constants or prevents overriding/inheritance.
+synchronized: Controls access to a block of code or object by multiple threads.
+volatile: Indicates that a variable's value may be modified by different threads.
+transient: Specifies that a variable should not be serialized. 
+__________________________________________________________________________________________________________________________________________
+
+Other Keywords
+package: Declares a package.
+import: Imports classes or interfaces.
+enum: Declares an enumerated type.
+instanceof: Checks if an object is an instance of a class or interface.
+native: Specifies that a method is implemented in native code.
+strictfp: Ensures floating-point calculations are performed consistently across different platforms.
+assert: Used for debugging and testing.

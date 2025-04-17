@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FirstBasic",
+            "request": "launch",
+            "mainClass": "finalCode.FirstBasic",
+            "projectName": "Java_Programming_a7b36f45"
+        },
+        {
+            "type": "java",
             "name": "Test",
             "request": "launch",
             "mainClass": "Test",
