@@ -1,7 +1,6 @@
 package t7Exceptions;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
+
 
 public class ThrowThrows {
     public static void main(String[] args) {
