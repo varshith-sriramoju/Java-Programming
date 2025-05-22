@@ -1,7 +1,5 @@
 package t7Exceptions;
 
-
-
 public class ThrowThrows {
     public static void main(String[] args) {
         ThrowThrows tt=new ThrowThrows();
@@ -16,7 +14,7 @@ public class ThrowThrows {
     public void doSth() throws RuntimeException{
         String x="Zero";
         if(x.equals("Zero")){
-            throw new IllegalArgumentException("som exception");
+            throw new RuntimeException("som exception");
         }
         System.out.println("DO something");
     }
