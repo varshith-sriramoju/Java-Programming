@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "arrayClass",
+            "request": "launch",
+            "mainClass": "t8Collections.arrayClass",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "hashMap",
+            "request": "launch",
+            "mainClass": "t8Collections.hashMap",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "hashset",
+            "request": "launch",
+            "mainClass": "t8Collections.hashset",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "arrayDeque",
+            "request": "launch",
+            "mainClass": "t8Collections.arrayDeque",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "priorityQueue",
+            "request": "launch",
+            "mainClass": "t8Collections.priorityQueue",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "queue",
+            "request": "launch",
+            "mainClass": "t8Collections.queue",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "stack",
+            "request": "launch",
+            "mainClass": "t8Collections.stack",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "Arraylist",
+            "request": "launch",
+            "mainClass": "t8Collections.Arraylist",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "Base",
+            "request": "launch",
+            "mainClass": "t5corejava.Practice.Base",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
             "name": "FirstBasic",
             "request": "launch",
             "mainClass": "finalCode.FirstBasic",
