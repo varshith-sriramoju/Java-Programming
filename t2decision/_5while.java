@@ -6,9 +6,10 @@ public class _5while {
             System.out.print(i);
             i++;
          }
+         System.out.println();
          while(true){
             System.out.println("infinte");
-           break; //if no break infinate
+            break; //if no break infinate
         }
     }
 }

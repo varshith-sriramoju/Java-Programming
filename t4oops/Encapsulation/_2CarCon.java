@@ -1,4 +1,4 @@
-package t4oops;
+package t4oops.Encapsulation;
 /*constructor:same as class
  * Super() called constructor of parent class
  */
@@ -14,10 +14,10 @@ public class _2CarCon {
         driver="seated";
         speed=10;
     }
-  
+
     /*if custom constructor created then no default constructor */
     //parameterized constructor or custom constructor
-    public _2CarCon(String doors, String engine, String driver, int speed) { 
+    public _2CarCon(String doors, String engine, String driver, int speed) {
         this.doors = doors;
         this.engine = engine;
         this.driver = driver;
@@ -56,7 +56,7 @@ public class _2CarCon {
         this.driver = driver;
     }
 
-    public String run() { 
+    public String run() {
         if (doors.equals("closed") && engine.equals("on") && driver.equals("seated") && speed > 0) {
             return "running";
         } else {

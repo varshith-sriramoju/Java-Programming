@@ -1,4 +1,4 @@
-package t4oops;
+package t4oops.Encapsulation;
 /*
  * public class: class that can be accessed from any other class
  * private: access modifier, restricts access to the class
@@ -41,7 +41,7 @@ public class _1Car {
     public void setDriver(String driver) {
         this.driver = driver;
     }
-    
+
     public String run(){
         if(doors.equals("closed")&&engine.equals("on") && driver.equals("seated")&&speed>0){
             return "running";

@@ -1,6 +1,6 @@
 package t7Exceptions;
 
-public class Throw {
+public class _5Throw {
     public static void main(String[] args) {
         try{
             System.out.println("before handling");

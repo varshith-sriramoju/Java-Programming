@@ -1,4 +1,4 @@
-package t4oops;
+package t4oops.Encapsulation;
 public class _2Hello {
     public static void main(String[] args){
         _2CarCon car=new _2CarCon("closed","on","seated",10);

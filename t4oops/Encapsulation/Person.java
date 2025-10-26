@@ -6,9 +6,7 @@ public class Person {
     private String gender = "male";
 
     public Person() {
-        this.name = name;
-        this.age = age;
-        this.gender = gender;
+        // defaults are provided at field declarations
     }
 
     public Person(String name, int age, String gender) {
@@ -47,7 +45,7 @@ public class Person {
     @Override
     public String toString() {
         return "my name is " + name + '\n' +
-                "my age is " + age + "years old" + '\n' +
+                "my age is " + age + " years old" + '\n' +
                 "and i am " + gender;
     }
 }

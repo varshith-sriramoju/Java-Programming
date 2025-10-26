@@ -8,7 +8,7 @@ class ExcTest extends Exception{
         System.out.println("not executed");
     }
 }
-public class ThrowableMethods {
+public class _8ThrowableMethods {
     public static void main(String[] args) {
         try{
             ExcTest.getexception();

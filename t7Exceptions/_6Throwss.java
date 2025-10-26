@@ -3,7 +3,7 @@ package t7Exceptions;
 import java.io.IOException;
 
 
-public class Throwss {
+public class _6Throwss {
 
     public static void main(String[] args) {
         char ch;

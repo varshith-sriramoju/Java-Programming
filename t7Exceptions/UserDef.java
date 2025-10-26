@@ -2,7 +2,7 @@ package t7Exceptions;
 
 public class UserDef {
     public static void main(String[] args) {
-        ThrowThrows tt=new ThrowThrows();
+        _7ThrowThrows tt=new _7ThrowThrows();
         tt.doSth();
     }
 

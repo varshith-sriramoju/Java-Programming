@@ -1,8 +1,8 @@
 package t7Exceptions;
 
-public class ThrowThrows {
+public class _7ThrowThrows {
     public static void main(String[] args) {
-        ThrowThrows tt=new ThrowThrows();
+        _7ThrowThrows tt=new _7ThrowThrows();
         try{
         tt.doSth();}
         finally {

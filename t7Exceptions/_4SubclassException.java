@@ -10,7 +10,7 @@ class NonIntNumberException extends Exception{
         return "the numerator "+numerator+" dividing denominator "+denominator+" is non integer";
     }
 }
-public class SubclassException {
+public class _4SubclassException {
     public static void main(String[] args) {
         int numerator[]={4,8,16,32,64,128,222,555};
         int denominator[]={2,0,4,0,0,8};

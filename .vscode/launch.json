@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "_3TryCatchNested",
+            "request": "launch",
+            "mainClass": "t7Exceptions._3TryCatchNested",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "_2TryCatch1",
+            "request": "launch",
+            "mainClass": "t7Exceptions._2TryCatch1",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "_1Basic",
+            "request": "launch",
+            "mainClass": "t3javamethods._1Basic",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "_5while",
+            "request": "launch",
+            "mainClass": "t2decision._5while",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "_11Tables",
+            "request": "launch",
+            "mainClass": "t2decision._11Tables",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "_10star",
+            "request": "launch",
+            "mainClass": "t2decision._10star",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "_9Nested",
+            "request": "launch",
+            "mainClass": "t2decision._9Nested",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "_7loops",
+            "request": "launch",
+            "mainClass": "t2decision._7loops",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "_4Loops",
+            "request": "launch",
+            "mainClass": "t2decision._4Loops",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "_1Operators",
+            "request": "launch",
+            "mainClass": "t2decision._1Operators",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "_2Tpecasting",
+            "request": "launch",
+            "mainClass": "t1basic._2Tpecasting",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "_1Variable",
+            "request": "launch",
+            "mainClass": "t1basic._1Variable",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
             "name": "arrayClass",
             "request": "launch",
             "mainClass": "t8Collections.arrayClass",

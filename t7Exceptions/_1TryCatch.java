@@ -1,6 +1,6 @@
 package t7Exceptions;
 
-public class TryCatch {
+public class _1TryCatch {
     public static void main(String[] args) {
         int y=0,x;
         try{
