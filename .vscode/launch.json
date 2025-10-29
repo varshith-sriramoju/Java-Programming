@@ -6,6 +6,118 @@
     "configurations": [
         {
             "type": "java",
+            "name": "star",
+            "request": "launch",
+            "mainClass": "InterviewPrograms.Star_Programs.star",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "ReverseNumber",
+            "request": "launch",
+            "mainClass": "InterviewPrograms.ReverseNumber",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicate",
+            "request": "launch",
+            "mainClass": "InterviewPrograms.RemoveDuplicate",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "LargestEleArray",
+            "request": "launch",
+            "mainClass": "InterviewPrograms.LargestEleArray",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "InterviewPrograms.Factorial",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "Merge2Arrays",
+            "request": "launch",
+            "mainClass": "InterviewPrograms.Merge2Arrays",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "SortArray",
+            "request": "launch",
+            "mainClass": "InterviewPrograms.SortArray",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNum",
+            "request": "launch",
+            "mainClass": "InterviewPrograms.PrimeNum",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "Fibonocci",
+            "request": "launch",
+            "mainClass": "InterviewPrograms.Fibonocci",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "Palimdrome",
+            "request": "launch",
+            "mainClass": "InterviewPrograms.Palimdrome",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "SwapNum",
+            "request": "launch",
+            "mainClass": "InterviewPrograms.SwapNum",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "InterviewPrograms.ReverseString",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "_8ThrowableMethods",
+            "request": "launch",
+            "mainClass": "t7Exceptions._8ThrowableMethods",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "_7ThrowThrows",
+            "request": "launch",
+            "mainClass": "t7Exceptions._7ThrowThrows",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "_6Throwss",
+            "request": "launch",
+            "mainClass": "t7Exceptions._6Throwss",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "_5Throw",
+            "request": "launch",
+            "mainClass": "t7Exceptions._5Throw",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
             "name": "_3TryCatchNested",
             "request": "launch",
             "mainClass": "t7Exceptions._3TryCatchNested",

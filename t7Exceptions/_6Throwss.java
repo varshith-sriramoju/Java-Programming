@@ -1,14 +1,10 @@
 package t7Exceptions;
-
 import java.io.IOException;
-
-
 public class _6Throwss {
-
     public static void main(String[] args) {
         char ch;
         try{
-            ch=exception("ssss");
+            ch=exception('k');
         }
         catch (IOException exe){
             System.out.println("please enter single char value");
@@ -17,7 +13,7 @@ public class _6Throwss {
         }
         System.out.println("you entered: "+ch);
     }
-    public static char exception(String str) throws IOException{
+    public static char exception(char str) throws IOException{
         System.out.println(str);
         return (char) System.in.read();
     }
