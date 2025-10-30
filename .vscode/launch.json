@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Amstrong",
+            "request": "launch",
+            "mainClass": "InterviewPrograms.Amstrong",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
             "name": "star",
             "request": "launch",
             "mainClass": "InterviewPrograms.Star_Programs.star",

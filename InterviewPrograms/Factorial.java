@@ -12,6 +12,7 @@ public class Factorial {
         System.out.printf("factorial of %d is %d\n",n,fact);
         System.out.println("-----------------------------");
         System.out.println(factorial(5));
+        System.out.println(factorial(1));
     }
     //recursion
     static long factorial(int n){

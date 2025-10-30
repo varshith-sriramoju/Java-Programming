@@ -10,6 +10,7 @@ public class Merge2Arrays {
         System.arraycopy(a, 0, merged, 0,a.length);
         //arraycopy(sourceArray, sourceStartIndex, destinationArray, destinationStartIndex, numberOfElementsToCopy)
         System.arraycopy(b, 0, merged, a.length, b.length);
-        System.out.println("Merged array:"+Arrays.toString(merged));
+        // System.out.println("Merged array:"+Arrays.toString(merged));
+        System.out.print(merged);
     }
 }

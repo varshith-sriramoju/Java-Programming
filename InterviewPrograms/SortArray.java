@@ -9,7 +9,7 @@ public class SortArray {
         // Use Integer[] so we can pass a Comparator (built-in reverseOrder)
         Arrays.sort(arr); // ascending
         System.out.println("Ascending order:"+Arrays.toString(arr));
-        Arrays.sort(arr, Collections.reverseOrder()); // built-in descending
+        //Arrays.sort(arr, Collections.reverseOrder()); // built-in descending
         System.out.println("Descending order:"+Arrays.toString(arr));
 
 
@@ -20,6 +20,22 @@ public class SortArray {
         int[] desc = arr.clone();
         sortDescending(desc);
         System.out.println("Descending order:" + Arrays.toString(desc));
+
+        //bubble sort
+        int temp;
+        for(int i=0;i<arr.length-1;i++){
+            for(int j=0;j<arr.length-1-i;j++){
+                if(arr[j]>arr[j+1]){
+                    temp=arr[j];
+                    arr[j]=arr[j+1];
+                    arr[j+1]=temp;
+                }
+            }
+        }
+        System.out.print("sorted array:");
+        for(int i=0;i<arr.length;i++){
+            System.out.print(arr[i]+" ");
+        }
     }
 
     // User-defined ascending sort (selection sort)

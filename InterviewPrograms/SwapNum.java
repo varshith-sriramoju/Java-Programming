@@ -10,6 +10,7 @@ public class SwapNum {
 
         int c=1245;
         String str=String.valueOf(c);
+        // String str=Integer.toString(c);
         System.out.println(str.length());
     }
 
