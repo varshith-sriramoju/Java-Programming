@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MulInterface",
+            "request": "launch",
+            "mainClass": "t9MulThred.MulInterface",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
+            "name": "MulThred",
+            "request": "launch",
+            "mainClass": "t9MulThred.MulThred",
+            "projectName": "Java_Programming_54ace195"
+        },
+        {
+            "type": "java",
             "name": "Amstrong",
             "request": "launch",
             "mainClass": "InterviewPrograms.Amstrong",
