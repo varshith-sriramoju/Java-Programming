@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PatternDemo",
+            "request": "launch",
+            "mainClass": "t11Regex.PatternDemo",
+            "projectName": "Java_Programming_d2a3a123"
+        },
+        {
+            "type": "java",
+            "name": "MatcherExample",
+            "request": "launch",
+            "mainClass": "t11Regex.MatcherExample",
+            "projectName": "Java_Programming_d2a3a123"
+        },
+        {
+            "type": "java",
+            "name": "_2ArrayObj",
+            "request": "launch",
+            "mainClass": "t10Arrays._2ArrayObj",
+            "projectName": "Java_Programming_d2a3a123"
+        },
+        {
+            "type": "java",
+            "name": "_1create",
+            "request": "launch",
+            "mainClass": "t10Arrays._1create",
+            "projectName": "Java_Programming_d2a3a123"
+        },
+        {
+            "type": "java",
+            "name": "basic",
+            "request": "launch",
+            "mainClass": "t10Arrays.basic",
+            "projectName": "Java_Programming_d2a3a123"
+        },
+        {
+            "type": "java",
             "name": "MulInterface",
             "request": "launch",
             "mainClass": "t9MulThred.MulInterface",

@@ -1,4 +1,4 @@
-package t6strings;
+package t8Collections;
 //refer w3 schools for all the string methods
 //Use only string methods to solve prolblems
 public class Strings {
